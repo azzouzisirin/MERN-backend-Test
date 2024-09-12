@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const drawingsRoutes = require('./routes/drawings');
 require('dotenv').config();
+const path = require('path');
+
 const cors = require('cors');
 const http = require('http');
 const morgan = require('morgan');
